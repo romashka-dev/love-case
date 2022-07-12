@@ -1,1 +1,28 @@
 // Заголовки, общие БЄМ блоки и проче...
+.logo {
+  @extend %ic;
+  @extend ._icon-logo;
+  font-size: rem(50);
+  @include adaptiveValue("font-size", 50, 40);
+  color: $mainColor__W;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: rem(30);
+  @media (max-width: $mobile) {
+    justify-content: center;
+    gap: rem(40);
+  }
+
+  &__item {
+    font-size: rem(20);
+    transition: all 0.3s;
+  }
+
+  &__item:hover {
+    color: $additionalColor_2;
+    opacity: 1;
+  }
+}
