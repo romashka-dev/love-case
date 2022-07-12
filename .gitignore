@@ -1,10 +1,10 @@
 ### PROJECT ###
 phpmailer/
 dist/
-# .gitignore
-# package-lock.json
+.gitignore
+package-lock.json
 version.json
-# node_modules/
+node_modules/
 undefined
 **/*.zip
 **/*.rar
