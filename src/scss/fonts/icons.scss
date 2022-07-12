@@ -1,0 +1,49 @@
+%ic {
+  font-family: 'icons';
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+[class*='_icon-'] {
+  &:before {
+    @extend %ic;
+    display: block;
+  }
+}
+
+._icon-logo:before {
+  content: '\e909';
+  display: inline-block;
+  text-align: center;
+}
+._icon-fb:before {
+  content: '\e900';
+}
+._icon-insta:before {
+  content: '\e901';
+}
+._icon-youtube:before {
+  content: '\e902';
+}
+._icon-certificate:before {
+  content: '\e903';
+}
+._icon-professional:before {
+  content: '\e904';
+}
+._icon-quality:before {
+  content: '\e905';
+}
+._icon-envelop-footer:before {
+  content: '\e906';
+}
+._icon-location-footer:before {
+  content: '\e907';
+}
+._icon-phone-footer:before {
+  content: '\e908';
+}
