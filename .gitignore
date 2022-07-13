@@ -5,6 +5,7 @@ version.json
 package-lock.json
 snnipets.txt
 undefined
+config
 **/*.zip
 **/*.rar
 
