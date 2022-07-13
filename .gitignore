@@ -1,8 +1,10 @@
 ### PROJECT ###
 phpmailer/
-dist/
 .gitignore
+node_modules
 version.json
+package-lock.json
+snnipets.txt
 undefined
 **/*.zip
 **/*.rar
