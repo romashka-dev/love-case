@@ -1,6 +1,5 @@
 ### PROJECT ###
 phpmailer/
-.gitignore
 node_modules
 version.json
 package-lock.json
