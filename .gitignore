@@ -2,9 +2,7 @@
 phpmailer/
 dist/
 .gitignore
-package-lock.json
 version.json
-node_modules/
 undefined
 **/*.zip
 **/*.rar
