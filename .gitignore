@@ -5,7 +5,7 @@ version.json
 package-lock.json
 snnipets.txt
 undefined
-config
+.gitignore
 **/*.zip
 **/*.rar
 
