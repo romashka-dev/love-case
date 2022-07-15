@@ -3,8 +3,8 @@
   margin-top: rem(-80);
 }
 .s1-block {
-  background: url("../../../img/pictures/home-page/main-slider/bg.png")
-    $mainColor center center/cover no-repeat;
+  background: url("@img/pictures/home-page/main-slider/bg.png") $mainColor
+    center center/cover no-repeat;
   display: flex;
   align-items: center;
   width: 100%;
