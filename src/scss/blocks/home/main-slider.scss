@@ -1,0 +1,59 @@
+//====================================================================================================
+.page__s1-block {
+  margin-top: rem(-80);
+}
+.s1-block {
+  background: url("../../../img/pictures/home-page/main-slider/bg.png")
+    $mainColor center center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__text {
+    font-size: rem(40);
+    color: $additionalColor_4;
+    text-align: center;
+    @include adaptiveValue("font-size", 40, 24);
+    @media (max-width: $tablet) {
+      margin-bottom: rem(20);
+    }
+  }
+
+  &__title {
+    font-family: "Great Vibes";
+    color: $mainColor__W;
+    font-size: rem(130);
+    text-align: center;
+    @include adaptiveValue("font-size", 130, 80);
+    margin-bottom: rem(18);
+  }
+
+  &__btn {
+    background-color: $additionalColor_2;
+    color: $mainColor__W;
+    font-size: rem(18);
+    padding: rem(13) rem(33);
+    transition: all 0.3s;
+  }
+
+  &__btn:hover {
+    background-color: transparent;
+    border: rem(2) solid $additionalColor_2;
+    opacity: 1;
+  }
+
+  &__bg {
+    text-align: center;
+  }
+
+  &__bg > img {
+    max-width: 100%;
+  }
+}

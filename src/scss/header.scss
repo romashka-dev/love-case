@@ -1,7 +1,7 @@
 //====================================================================================================
 .header {
-  background-color: $mainColor;
   color: $mainColor__W;
+  z-index: 2;
 
   &__main {
     padding: rem(10) 0;
@@ -90,7 +90,7 @@
       opacity: 0.9;
       position: fixed;
       top: 0;
-      left: -100%;
+      left: 100%;
       overflow: auto;
       transition: left 0.3s ease 0s;
       z-index: 4;
