@@ -583,7 +583,7 @@ li {
 }
 
 .no-webp .s1-block{
-  background: url("../../../img/pictures/home-page/main-slider/bg.png") #000 center center/cover no-repeat; }
+  background: url("../img/pictures/home-page/main-slider/bg.png") #000 center center/cover no-repeat; }
 
 .s1-block {
   display: -webkit-box;
@@ -948,4 +948,4 @@ li {
   }
 }
 
-.webp .s1-block{ background: url(../../../img/pictures/home-page/main-slider/bg.webp) #000 center center/cover no-repeat; }
+.webp .s1-block{ background: url(../img/pictures/home-page/main-slider/bg.webp) #000 center center/cover no-repeat; }
